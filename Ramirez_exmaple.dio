@@ -63,6 +63,9 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="18" value="Diagrama de flujo para un alumno que presenta extraordinario" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="10" width="330" height="30" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>

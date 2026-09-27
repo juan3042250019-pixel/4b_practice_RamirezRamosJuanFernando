@@ -1,0 +1,48 @@
+<mxfile host="65bd71144e">
+    <diagram id="qeNM3mlWXIcXGGrMrcdw" name="Página-1">
+        <mxGraphModel dx="692" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title2" value="COMO GANA DINERO LA EMPRESA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="30" width="500" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="clients" value="Clientes&#xa;(Dueños de tiendas y negocios)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="90" width="200" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="f1" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="clients" target="billing">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="billing" value="Cobro de renta cada mes&#xa;(Planes: $499, $1,299 o $2,999)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="170" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="f2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="billing" target="pool">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="pool" value="Dinero total que entra" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="325" y="260" width="170" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="fCost" value="10% - 15%" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pool" target="costs">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="200" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="fProfit" value="85% - 90%" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pool" target="profit">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="620" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="costs" value="Gastos del negocio&#xa;• Servidor donde corre Python&#xa;• Pago de mensajes de WhatsApp&#xa;• Registro de la página web" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="360" width="200" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="profit" value="Tu ganancia limpia&#xa;• Tu sueldo por crear el programa&#xa;• Dinero para hacer crecer la empresa" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="360" width="200" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

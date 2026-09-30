@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e">
+    <diagram id="JYJNEXRPK0eVuSnZticR" name="Página-1">
+        <mxGraphModel dx="912" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title3" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" value="DIAGRAMA 3: CASOS DE USO - NOTIFICACIONES Y ALERTAS" vertex="1">
+                    <mxGeometry height="40" width="500" x="160" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="actorEngine" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Motor de&#xa;Reglas" vertex="1">
+                    <mxGeometry height="80" width="40" x="100" y="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="actorOwner" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Dueño de&#xa;la Tienda" vertex="1">
+                    <mxGeometry height="80" width="40" x="680" y="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="system3" parent="1" style="shape=rect;html=1;whiteSpace=wrap;align=center;verticalAlign=top;fillColor=none;" value="Módulo de Notificaciones" vertex="1">
+                    <mxGeometry height="340" width="380" x="220" y="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc31" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Detectar baja de precio significativo" vertex="1">
+                    <mxGeometry height="50" width="220" x="300" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc32" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Detectar producto agotado en rival" vertex="1">
+                    <mxGeometry height="50" width="220" x="300" y="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc33" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Generar plantilla de mensaje" vertex="1">
+                    <mxGeometry height="50" width="220" x="300" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="uc34" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Enviar mensaje por WhatsApp/Correo" vertex="1">
+                    <mxGeometry height="50" width="220" x="300" y="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="e31" edge="1" parent="1" source="actorEngine" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc31">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="e32" edge="1" parent="1" source="actorEngine" style="endArrow=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uc32">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="e33" edge="1" parent="1" source="actorOwner" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uc34">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
